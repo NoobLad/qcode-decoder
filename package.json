@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cirocosta/qcode-decoder",
   "scripts": {
+    "start": "gulp watch",
+    "build": "gulp build",
     "test": "zuul -- tests/test-qcode-decoder.js",
     "test-local": "zuul --local 8080 --ui mocha-bdd -- tests/test-qcode-decoder.js"
   },
